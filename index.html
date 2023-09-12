@@ -36,21 +36,41 @@
             </div>
         </div>
     </nav>   
-</section id="profile">
+<section id="profile">
     <div class="section_pic-container">
-        <img src="./assets/cricket2.jpg" alt = "Cricket Profile Pic">
+        <img src="./assets/cricket2.jpg" alt = "Cricket Profile Pic" id="cricket1"
+
+       />
     </div>
     <div class="section_text">
         <p class="section_text_p1"> Hello, I'm</p>
         <h1 class="title"> Cricket Siracha Otter P</h1>
         <p class ="section_text_p2">Aspiring Full Stack Developer </p> 
         <div class="btn-container">
-            <button class="btn btn-color-2" oneclick="window.open('./assets/resume.pdf')"
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')"
             >Download Button</button>
-            <button class="btn btn-color-1" oneclick="location.href('./#contact)"
+            <button class="btn btn-color-1" onclick="location.href='./#contact'"
             >Contact Info</button>
         </div>
+        <div id="social-container">
+            <img 
+                src="./assets/linkedin.png"
+                alt="My LinkedIn Profile"
+                id="linked"
+                class ="icon"
+                onclick="location.href= 'https://linkedin.com/' "
+            />
+
+            <img 
+            src="./assets/github-sign.png"
+            id="git"
+            alt="My Github Profile"
+            class ="icon"
+            onclick="location.href='https://github.com/'"
+        />
+        </div>
     </div>
+</section>
     <script src="script.js"></script>
 </body>
 </html>
