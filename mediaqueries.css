@@ -5,4 +5,10 @@
     #hamburger-nav{
         display: flex;
     }
+    .about-containers,
+    .about-details-container {
+   
+    display: block;
+        
+    }
 }
