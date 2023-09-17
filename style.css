@@ -407,7 +407,7 @@ article .icon {
 }
 
 .project-title {
-    margin: 1 rem;
+    margin: 1rem;
     color: black;
 }
 
@@ -415,9 +415,14 @@ article .icon {
     color: black;
     border-color: rgb(163,163,163);
 }
-
-/*contact */ 
-
+.project-text {
+    margin: 1rem;
+    color: red;
+}
+.section-text-proj p{
+    color: red;
+}
+/*contact */
 #contact {
     display: flex;
     justify-content: center;
