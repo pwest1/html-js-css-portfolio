@@ -172,8 +172,8 @@ section {
     margin: auto 10;
 }
 #cricket1 {
-    width: 400px;
     height: auto;
+    max-width: 100%;
     border-radius: 90%;
 }
 #linked, #git {
@@ -421,6 +421,11 @@ article .icon {
 }
 .section-text-proj p{
     color: red;
+}
+
+#portfolio {
+    height: 400px;
+    width: 600px;
 }
 /*contact */
 #contact {
