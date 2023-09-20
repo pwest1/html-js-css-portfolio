@@ -360,7 +360,7 @@ h4{
 }
 /*experience Section */
 
-#experience{
+#skills{
     position: relative;
 }
 .experience-sub-title {
@@ -431,6 +431,14 @@ article .icon {
     height: 400px;
     width: 600px;
 }
+
+#testimonials {
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+  
 /*contact */
 #contact {
     display: flex;
