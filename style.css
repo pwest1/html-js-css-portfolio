@@ -150,10 +150,13 @@ section {
     margin: 0 10 rem;
     box-sizing: border-box;
     min-height: fit-content;
+    
+  
 }
 
 .section-container{
     display: flex;
+    
 }
 
 /* profile section */
@@ -305,6 +308,7 @@ h4{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+   
 }
 
 .about-details-container {
