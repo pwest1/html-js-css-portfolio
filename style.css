@@ -373,6 +373,7 @@ h4{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 .article-container {
     display: flex;
@@ -398,6 +399,7 @@ article .icon {
 
 #projects {
     position: relative;
+    
 }
 .color-container {
     border-color: rgb(163,163,163);
@@ -435,6 +437,7 @@ article .icon {
 #testimonials 
 {
     position: relative;
+    padding-top: 10rem;
 }
 /*contact */
 #contact {
