@@ -358,9 +358,9 @@ h4{
     width: 400px;
     margin: auto 0;
 }
-/*experience Section */
+/*skills Section */
 
-#experience{
+#skills{
     position: relative;
 }
 .experience-sub-title {
@@ -430,6 +430,11 @@ article .icon {
 #portfolio {
     height: 400px;
     width: 600px;
+}
+
+#testimonials 
+{
+    position: relative;
 }
 /*contact */
 #contact {
