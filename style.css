@@ -434,11 +434,14 @@ article .icon {
     width: 600px;
 }
 
-#testimonials 
-{
-    position: relative;
-    padding-top: 15rem;
+#testimonials {
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  padding-top: 15rem;
 }
+  
 /*contact */
 #contact {
     display: flex;
