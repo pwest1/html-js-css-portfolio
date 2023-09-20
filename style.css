@@ -429,10 +429,12 @@ article .icon {
     color: red;
 }
 
-#portfolio {
+#portfolio
+ {
     height: 400px;
     width: 600px;
 }
+
 
 #testimonials {
   display: flex;
@@ -440,6 +442,7 @@ article .icon {
     flex-direction: column;
     height: 70vh;
   padding-top: 15rem;
+  padding-bottom: 10rem;
 }
   
 /*contact */
