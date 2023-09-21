@@ -399,7 +399,7 @@ article .icon {
 
 #projects {
     position: relative;
-    padding-bottom: 15rem;
+    padding-bottom: 35rem;
     
     
 }
@@ -444,7 +444,6 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
-    padding-top: 35rem;
     padding-bottom: 25rem;
 }
   
