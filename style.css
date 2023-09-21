@@ -455,7 +455,9 @@ article .icon {
   
 /*contact */
 #contact {
-    display: flex;
+    padding-top: 35rem;
+    padding-bottom: 35rem;
+    display: block;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
