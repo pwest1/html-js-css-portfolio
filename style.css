@@ -445,7 +445,7 @@ article .icon {
 
 #testimonials {
     position: relative;
-    display: block;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
@@ -456,11 +456,13 @@ article .icon {
 /*contact */
 #contact {
     
-    display: block;
+    display: flex;
+    
     position: relative;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    padding-bottom: 10rem;
 }
 
 .contact-info-upper-container{
@@ -497,7 +499,7 @@ article .icon {
 footer {
     height: 26vh;
     margin: 0 1rem;
-    position: relative;
+    position: static;
 }
 
 footer p {
