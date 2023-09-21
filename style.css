@@ -458,6 +458,7 @@ article .icon {
     padding-top: 15rem;
     padding-bottom: 35rem;
     display: block;
+    position: relative;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
@@ -495,7 +496,7 @@ article .icon {
 footer {
     height: 26vh;
     margin: 0 1rem;
-    display: block;
+    position: relative;
 }
 
 footer p {
