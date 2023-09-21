@@ -448,8 +448,8 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 90vh;
-    padding-bottom: 15rem;
+    height: 96vh;
+    padding-bottom: 20rem;
     padding-top: 15rem;
 }
   
