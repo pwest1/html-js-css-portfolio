@@ -441,7 +441,7 @@ article .icon {
 
 #testimonials {
     position: relative;
-    display: flex;
+    display: block;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
