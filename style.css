@@ -444,7 +444,7 @@ article .icon {
 
 
 #testimonials {
-    position: relative;
+    position: static;
     display: flex;
     justify-content: center;
     flex-direction: column;
