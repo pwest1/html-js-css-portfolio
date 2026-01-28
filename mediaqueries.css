@@ -1,14 +1,17 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    min-height: auto;
+    padding: 4rem 5%;
   }
   .about-containers {
     flex-wrap: wrap;
   }
   #contact,
   #projects {
-    height: fit-content;
+    min-height: auto;
+  }
+  .section-container {
+    flex-wrap: wrap;
   }
 }
 
@@ -32,17 +35,81 @@
   }
   section,
   .section-container {
-    height: fit-content;
+    min-height: auto;
   }
   section {
-    margin: 0 5%;
+    padding: 3rem 5%;
   }
-  .section__pic-container {
+  .section_pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
   .about-containers {
     margin-top: 0;
+  }
+  .details-container {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .experience-header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .section_text_p2 {
+    font-size: 1.25rem;
+  }
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    width: 100%;
+    max-width: 200px;
+  }
+  .about-containers {
+    flex-direction: column;
+  }
+  .details-container {
+    width: 100%;
+  }
+  .article-container {
+    justify-content: center;
+  }
+  article {
+    width: 120px;
+  }
+  .experience-container {
+    padding: 0 1rem;
+  }
+  .experience-item {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+  .logo {
+    font-size: 1.25rem;
+  }
+  section {
+    padding: 2rem 1rem;
+  }
+  .title {
+    font-size: 1.75rem;
+  }
+  #social-container {
+    gap: 1rem;
+  }
+  .icon {
+    height: 1.5rem;
   }
 }
